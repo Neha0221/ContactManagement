@@ -6,7 +6,7 @@ function CreateUser() {
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
-    const [phone, setPhone] = useState("");
+    const [phoneNumber, setPhone] = useState("");
     const [company, setCompany] = useState("");
     const [jobTitle, setJobTitle] = useState("");
     const navigate=useNavigate();
@@ -18,7 +18,7 @@ function CreateUser() {
             firstName,
             lastName,
             email,
-            phone,
+            phoneNumber,
             company,
             jobTitle,
         })
